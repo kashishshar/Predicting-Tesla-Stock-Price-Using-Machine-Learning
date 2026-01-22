@@ -1,28 +1,86 @@
-# Tesla Stock Price Prediction
+# 📈 Tesla Stock Price Prediction
 
-## Overview
-This project aims to predict whether the closing price of Tesla stock will be higher the next day using historical stock data. It's a binary classification problem where machine learning models help predict a buy signal based on past stock price data.
+![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Classification-brightgreen)
+![XGBoost](https://img.shields.io/badge/XGBoost-Model-orange)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
-## Website link
+---
+
+## 🔍 Overview
+This project focuses on predicting whether the **closing price of Tesla (TSLA) stock will increase on the next trading day** using historical stock market data.  
+The problem is formulated as a **binary classification task**, where machine learning models are used to generate a potential **buy signal** based on past price movements.
+
+---
+
+## 🌐 Live Application
+👉 **Streamlit App:**  
 https://tesla-stock-price-prediction-project.streamlit.app/
 
-## Data
-The dataset includes Tesla's daily stock prices from January 2010 to December 2017. Key features include:
-- **Open**: Opening price
-- **High**: Highest price
-- **Low**: Lowest price
-- **Close**: Closing price
-- **Volume**: Total shares traded
+---
 
-## Features Engineered
-- **Open-Close Spread**: Price difference between open and close
-- **High-Low Spread**: Volatility indicator
-- **Quarter-End Flag**: Indicator for quarter-end days
+## 📊 Dataset
+The dataset contains **daily Tesla stock price data from January 2010 to December 2017**, sourced from historical market records.
 
-## Models Used
-- Logistic Regression
-- Support Vector Machines (SVM)
-- XGBoost
+### Key Features:
+- **Open** – Opening price of the stock  
+- **High** – Highest price of the day  
+- **Low** – Lowest price of the day  
+- **Close** – Closing price of the day  
+- **Volume** – Number of shares traded  
 
-## Evaluation
-Model performance is evaluated using ROC-AUC, trained on 90% of the data with 10% reserved for validation.
+---
+
+## ⚙️ Feature Engineering
+To enhance model performance, the following features were engineered:
+- **Open–Close Spread** – Difference between opening and closing price  
+- **High–Low Spread** – Indicator of daily volatility  
+- **Quarter-End Indicator** – Binary flag for quarter-end trading days  
+
+---
+
+## 🤖 Machine Learning Models Used
+- Logistic Regression  
+- Support Vector Machine (SVM)  
+- XGBoost Classifier  
+
+These models were trained to predict whether the next day’s closing price would be higher than the current day.
+
+---
+
+## 📈 Model Evaluation
+- **Train–Validation Split:** 90% training, 10% validation  
+- **Evaluation Metric:** ROC–AUC Score  
+
+ROC–AUC was chosen to effectively measure classification performance, especially for financial prediction tasks.
+
+---
+
+## 🧠 Tech Stack
+- Python  
+- Pandas, NumPy  
+- Scikit-learn  
+- XGBoost  
+- Streamlit  
+- Matplotlib, Seaborn  
+
+---
+
+## 👥 Project Contribution
+This project was developed as a **group project**.  
+My contributions include:
+- Data preprocessing and feature engineering  
+- Model selection and evaluation strategy  
+- Performance analysis using ROC–AUC  
+- Documentation and project deployment support  
+
+> This repository is forked from the original group project to showcase individual understanding and contributions.
+
+---
+
+## 🚀 Future Improvements
+- Add technical indicators (RSI, MACD, Moving Averages)  
+- Use time-series–based models (LSTM, GRU)  
+- Extend dataset with recent stock data  
+- Improve prediction confidence and explainability  
