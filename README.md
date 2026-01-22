@@ -1,5 +1,6 @@
 # Tesla Stock Price Prediction
 
+![CI](https://github.com/kashishshar/Predicting-Tesla-Stock-Price-Using-Machine-Learning/actions/workflows/python-ci.yml/badge.svg)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Classification-brightgreen)
 ![XGBoost](https://img.shields.io/badge/XGBoost-Model-orange)
