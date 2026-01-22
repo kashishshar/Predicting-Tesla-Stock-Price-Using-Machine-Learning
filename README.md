@@ -5,7 +5,7 @@
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Classification-brightgreen)
 ![XGBoost](https://img.shields.io/badge/XGBoost-Model-orange)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
-![Status](https://img.shields.io/badge/Status-Completed-success)
+
 
 ---
 
